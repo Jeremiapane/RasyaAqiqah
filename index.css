@@ -1,0 +1,90 @@
+.slider-wrapper .image-list {
+  display: grid;
+  gap: 11px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  grid-template-columns: repeat(10, 1fr);
+}
+.slider-wrapper .image-list::-webkit-scrollbar {
+  display: none;
+}
+.slider-wrapper .image-list .image-item {
+  object-fit: cover;
+}
+
+.slider-wrapper .slide-button {
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  color: blue;
+  cursor: pointer;
+  position: absolute;
+  transform: translateY(-50%);
+}
+.slider-wrapper .slide-button:hover {
+  color: #ffcd4f;
+}
+
+.slider-wrapper .slide-button#prev-slide {
+  left: -20px;
+}
+.slider-wrapper .slide-button#next-slide {
+  right: -50px;
+}
+.slider-wrapper {
+  position: relative;
+}
+#testimonial {
+  position: relative;
+  width: 95%;
+}
+.image-item {
+  height: 465px;
+  width: 228px;
+}
+
+/* menu */
+.slider-wrapper .card-list {
+  display: grid;
+  gap: 11px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  grid-template-columns: repeat(10, 1fr);
+}
+.slider-wrapper .card-list::-webkit-scrollbar {
+  display: none;
+}
+.slider-wrapper .card-list .card-item {
+  object-fit: cover;
+}
+
+.slider-wrapper .slide-button {
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  color: blue;
+  cursor: pointer;
+  position: absolute;
+  transform: translateY(-50%);
+}
+.slider-wrapper .slide-button:hover {
+  color: #ffcd4f;
+}
+
+.slider-wrapper .slide-button#prev-slide {
+  left: -20px;
+}
+.slider-wrapper .slide-button#next-slide {
+  right: -50px;
+}
+.slider-wrapper {
+  position: relative;
+}
+#menu {
+  position: relative;
+  width: 95%;
+}
+.card-item {
+  height: 465px;
+  width: 228px;
+}
