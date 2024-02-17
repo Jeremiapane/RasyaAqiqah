@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Rasya Aqiqah</title>
+    <link rel="stylesheet" href="index.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
   </head>
   <body>
@@ -51,12 +52,12 @@
     <!-- Menu Pesanan -->
     <div class="menu" style="margin-top: 84px">
       <div class="container">
-        <div class="heading d-flex justify-content-center gap-5 mb-5">
+        <div class="heading d-flex justify-content-center gap-5 mb-5 align-items-center">
           <hr style="background-color: #004aad; border: 3px solid; opacity: 1; width: 380px; height: 5px" />
-          <h2 class="text-center">Menu Pesanan</h2>
+          <h2 class="text-center" style="font-size: 48px">Menu Pesanan</h2>
           <hr style="background-color: #004aad; border: 3px solid; opacity: 1; width: 380px; height: 5px" />
         </div>
-        <div id="card-product" class="container-fluid mt-5 gap-5" data-bs-spy="scroll" style="width: 100%; display: flex; overflow-x: auto">
+        <div class="container mt-5 gap-5 food d-flex flex-row overflow-hidden">
           <div class="card" style="width: 260px; height: 464px; min-width: 260px; border-radius: 11px">
             <div
               class="group"
@@ -273,13 +274,12 @@
         </div>
       </div>
     </div>
-
     <!-- Menu Box -->
     <div class="menu" style="margin-top: 84px">
       <div class="container">
-        <div class="heading d-flex justify-content-center gap-5 mb-5">
+        <div class="heading d-flex justify-content-center gap-5 mb-5 align-items-center">
           <hr style="background-color: #004aad; border: 3px solid; opacity: 1; width: 380px; height: 5px" />
-          <h2 class="text-center">Menu Nasi Box</h2>
+          <h2 class="text-center" style="font-size: 48px">Menu Nasi Box</h2>
           <hr style="background-color: #004aad; border: 3px solid; opacity: 1; width: 380px; height: 5px" />
         </div>
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
@@ -307,6 +307,120 @@
         <img src="img/menu.png" class="img-fluid text-center" width="100%" alt="" style="margin-top: 130px" />
       </div>
     </div>
+
+    <!-- Bonus Section -->
+    <div class="bonus container-fluid" style="margin-top: 130px; padding: 100px; background-image: linear-gradient(to right, #fdbe43, #fdbc433f); height: 904px; position: relative">
+      <div class="bonus-text">
+        <h1 style="font-weight: 800; font-size: 64px">Aqiqah Banyak Bonus??</h1>
+        <p style="font-weight: 500; font-size: 22px">Siap siap kebanjiran bonus lho!</p>
+        <ul style="list-style-type: none; padding: 0; margin-top: 20px">
+          <li style="align-content: center; display: flex; margin-bottom: 20px">
+            <img src="img/Checkboxes.png" class="img-fluid me-2" />
+            <span style="font-size: 22px; font-weight: 500">Free Ongkos Kirim</span>
+          </li>
+          <li style="align-content: center; display: flex; margin-bottom: 20px">
+            <img src="img/Checkboxes.png" class="img-fluid me-2" />
+            <span style="font-size: 22px; font-weight: 500">Free Biaya Sembelih</span>
+          </li>
+          <li style="align-content: center; display: flex; margin-bottom: 20px">
+            <img src="img/Checkboxes.png" class="img-fluid me-2" />
+            <span style="font-size: 22px; font-weight: 500">Free Biaya Masak</span>
+          </li>
+          <li style="align-content: center; display: flex; margin-bottom: 20px">
+            <img src="img/Checkboxes.png" class="img-fluid me-2" />
+            <span style="font-size: 22px; font-weight: 500">Free Plastik Bag</span>
+          </li>
+          <li style="align-content: center; display: flex; margin-bottom: 20px">
+            <img src="img/Checkboxes.png" class="img-fluid me-2" />
+            <span style="font-size: 22px; font-weight: 500">Free Kartu Ucapan</span>
+          </li>
+          <li style="align-content: center; display: flex; margin-bottom: 20px">
+            <img src="img/Checkboxes.png" class="img-fluid me-2" />
+            <span style="font-size: 22px; font-weight: 500">Free Sertifikat</span>
+          </li>
+          <li style="align-content: center; display: flex; margin-bottom: 20px">
+            <img src="img/Checkboxes.png" class="img-fluid me-2" />
+            <span style="font-size: 22px; font-weight: 500">Free Bingkat Biodata</span>
+          </li>
+          <li style="align-content: center; display: flex; margin-bottom: 20px">
+            <img src="img/Checkboxes.png" class="img-fluid me-2" />
+            <span style="font-size: 22px; font-weight: 500">Free Souvenir Cantik</span>
+          </li>
+        </ul>
+        <div class="cta d-flex align-items-center gap-3" role="button" style="width: 280px">
+          <button type="button" style="background-color: #004aad; width: 220px; border-radius: 11px; height: 67px; color: #fff; font-size: 22px; font-weight: 400">Hubungi Kami</button>
+          <i class="fa-solid fa-angle-right fa-2xl" style="color: #004aad"></i>
+        </div>
+      </div>
+      <div class="image-backdrop container" style="display: flex">
+        <img src="/img/person.png" alt="" style="width: 540px; position: absolute; height: 638px; right: 0; bottom: 0" />
+        <img src="img/ornament.png" style="width: 326px; position: absolute; height: 326px; right: 260px; bottom: 340px" alt="" />
+        <img src="img/ornament.png" style="width: 192px; position: absolute; height: 192px; right: 3%; bottom: 480px; rotate: 60deg" alt="" />
+      </div>
+    </div>
+
+    <!-- Testimonial -->
+    <div class="container testimonial" style="margin-top: 80px">
+      <div class="heading d-flex justify-content-center gap-5 mb-5 align-items-center">
+        <hr style="background-color: #004aad; border: 3px solid; opacity: 1; width: 380px; height: 5px" />
+        <h2 class="text-center" style="font-size: 48px">Testimonial</h2>
+        <hr style="background-color: #004aad; border: 3px solid; opacity: 1; width: 380px; height: 5px" />
+      </div>
+      <div class="testimonial-gallery gap-5 d-flex" style="width: 100%; display: flex; overflow-x: auto" id="scroll">
+        <img src="img/testi1.png" alt="" style="width: 228px; height: 465px" />
+        <img src="img/testi1.png" alt="" style="width: 228px; height: 465px" />
+        <img src="img/testi1.png" alt="" style="width: 228px; height: 465px" />
+        <img src="img/testi1.png" alt="" style="width: 228px; height: 465px" />
+        <img src="img/testi1.png" alt="" style="width: 228px; height: 465px" />
+        <img src="img/testi1.png" alt="" style="width: 228px; height: 465px" />
+        <img src="img/testi1.png" alt="" style="width: 228px; height: 465px" />
+        <img src="img/testi1.png" alt="" style="width: 228px; height: 465px" />
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="row g-0 text-left" style="margin-top: 97px">
+      <div class="col-6 col-md-4 d-flex flex-column p-5" style="background-color: #ffcd4f">
+        <img src="img/logo-large.png" width="297px" height="64px" alt="" />
+        <span style="color: #0148aa; font-size: 18px; font-weight: 400"
+          >Rasya Aqiqah hadir menyediakan layanan aqiqah terjangkau, dapat dipercaya, dan praktis bagi keluarga Indonesia. Kami berupaya memberikan solusi terbaik untuk merayakan momen berharga anda.
+        </span>
+      </div>
+      <div class="col-sm-6 col-md-8 p-5 d-flex flex-row" style="background-color: #fffadd">
+        <div class="info">
+          <h4>Informasi</h4>
+          <p><i class="fa-solid fa-location-dot"></i> Jl. Wisma Tajur No.100, RT.004/RW.002, Tajur, Kec. Ciledug, Kota Tangerang, Banten 15226</p>
+          <p>Melayani Daerah sekitar Jakarta dan Tangerang</p>
+          <div class="social-media d-flex flex-row gap-1">
+            <div class="Whatsapp gap-2 d-flex align-items-center">
+              <i class="fa-brands fa-whatsapp fa-xl" style="color: #004aad"></i>
+              <a href="">Whatsapp</a>
+            </div>
+            <hr class="border border-primary border-2 opacity-100" style="width: 30px; rotate: 90deg" />
+            <div class="instagram gap-2 d-flex align-items-center">
+              <i class="fa-brands fa-instagram fa-xl" style="color: #004aad"></i>
+              <a href="">Instaram</a>
+            </div>
+          </div>
+        </div>
+        <div class="map d-flex position-relative">
+          <iframe
+            style="z-index: 1"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.176620203281!2d106.68676477475066!3d-6.240438493747853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fa3839226221%3A0x4fc4d0621a58a465!2sJl.%20Wisma%20Tajur%20No.100%2C%20RT.004%2FRW.002%2C%20Tajur%2C%20Kec.%20Ciledug%2C%20Kota%20Tangerang%2C%20Banten%2015226!5e0!3m2!1sid!2sid!4v1708146198341!5m2!1sid!2sid"
+            width="400"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <img src="img/ilt-map.png" alt="" style="z-index: 0; position: absolute; bottom: -40px; right: -40px" />
+        </div>
+      </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0c2683af4a.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
   </body>
 </html>
