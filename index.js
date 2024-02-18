@@ -43,7 +43,7 @@ const initSlider2 = () => {
     slideButtons[1].style.display = cardList.scrollLeft >= maxScrollLeft ? "none" : "flex";
   };
 
-  imageList.addEventListener("scroll", () => {
+  cardList.addEventListener("scroll", () => {
     updateScrollThumbPosition();
     handleSlideButtons();
   });
